@@ -19,6 +19,7 @@
         <module>../think-in-mybatis</module>
         <module>../think-in-spring</module>
         <module>../think-in-spring-security</module>
+        <module>../think-in-hightconcurrent</module>
     </modules>
 
     <properties>
