@@ -16,10 +16,15 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
+        <module>../think-in-algorithm</module>
+        <module>../think-in-hightconcurrent</module>
+        <module>../think-in-jdk8</module>
         <module>../think-in-mybatis</module>
         <module>../think-in-spring</module>
         <module>../think-in-spring-security</module>
-        <module>../think-in-hightconcurrent</module>
+        <module>../think-in-design-patterns</module>
+        <module>../thinking-in-mq</module>
+
     </modules>
 
     <properties>
