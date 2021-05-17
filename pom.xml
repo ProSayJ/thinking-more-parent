@@ -16,15 +16,14 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>../think-in-algorithm</module>
-        <module>../think-in-hightconcurrent</module>
-        <module>../think-in-jdk8</module>
+        <!--        <module>../think-in-algorithm</module>-->
+        <!--        <module>../think-in-hightconcurrent</module>-->
+        <!--        <module>../think-in-jdk8</module>-->
         <module>../think-in-mybatis</module>
         <module>../think-in-spring</module>
-        <module>../think-in-spring-security</module>
-        <module>../think-in-design-patterns</module>
-        <module>../thinking-in-mq</module>
-
+        <!--        <module>../think-in-spring-security</module>-->
+        <!--        <module>../think-in-design-patterns</module>-->
+        <!--        <module>../thinking-in-mq</module>-->
     </modules>
 
     <properties>
@@ -38,96 +37,96 @@
         <spring-version>5.3.1</spring-version>
     </properties>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>${junit-version}</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-context</artifactId>
-                <version>${spring-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-webmvc</artifactId>
-                <version>${spring-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.ulisesbocchio</groupId>
-                <artifactId>jasypt-spring-boot-starter</artifactId>
-                <version>2.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>1.1.16</version>
-            </dependency>
+    <!--    <dependencyManagement>-->
+    <!--        <dependencies>-->
+    <!--            <dependency>-->
+    <!--                <groupId>junit</groupId>-->
+    <!--                <artifactId>junit</artifactId>-->
+    <!--                <version>${junit-version}</version>-->
+    <!--                <scope>test</scope>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>org.springframework</groupId>-->
+    <!--                <artifactId>spring-context</artifactId>-->
+    <!--                <version>${spring-version}</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>org.springframework</groupId>-->
+    <!--                <artifactId>spring-webmvc</artifactId>-->
+    <!--                <version>${spring-version}</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>com.github.ulisesbocchio</groupId>-->
+    <!--                <artifactId>jasypt-spring-boot-starter</artifactId>-->
+    <!--                <version>2.0.0</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>com.alibaba</groupId>-->
+    <!--                <artifactId>druid</artifactId>-->
+    <!--                <version>1.1.16</version>-->
+    <!--            </dependency>-->
 
-            <!-- JWT -->
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt-api</artifactId>
-                <version>0.11.1</version>
-            </dependency>
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt-impl</artifactId>
-                <version>0.11.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>3.10</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>1.14</version>
-            </dependency>
-            <dependency>
-                <groupId>org.bouncycastle</groupId>
-                <artifactId>bcprov-jdk15on</artifactId>
-                <version>1.64</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.code.gson</groupId>
-                <artifactId>gson</artifactId>
-                <version>2.8.5</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.zxing</groupId>
-                <artifactId>core</artifactId>
-                <version>3.4.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.zxing</groupId>
-                <artifactId>javase</artifactId>
-                <version>3.4.0</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>javax.servlet-api</artifactId>
-                <version>4.0.1</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>1.2.71</version>
-            </dependency>
-            <dependency>
-                <groupId>dom4j</groupId>
-                <artifactId>dom4j</artifactId>
-                <version>1.6.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mybatis.generator</groupId>
-                <artifactId>mybatis-generator-core</artifactId>
-                <version>1.4.0</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <!--            &lt;!&ndash; JWT &ndash;&gt;-->
+    <!--            <dependency>-->
+    <!--                <groupId>io.jsonwebtoken</groupId>-->
+    <!--                <artifactId>jjwt-api</artifactId>-->
+    <!--                <version>0.11.1</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>io.jsonwebtoken</groupId>-->
+    <!--                <artifactId>jjwt-impl</artifactId>-->
+    <!--                <version>0.11.1</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>org.apache.commons</groupId>-->
+    <!--                <artifactId>commons-lang3</artifactId>-->
+    <!--                <version>3.10</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>commons-codec</groupId>-->
+    <!--                <artifactId>commons-codec</artifactId>-->
+    <!--                <version>1.14</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>org.bouncycastle</groupId>-->
+    <!--                <artifactId>bcprov-jdk15on</artifactId>-->
+    <!--                <version>1.64</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>com.google.code.gson</groupId>-->
+    <!--                <artifactId>gson</artifactId>-->
+    <!--                <version>2.8.5</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>com.google.zxing</groupId>-->
+    <!--                <artifactId>core</artifactId>-->
+    <!--                <version>3.4.0</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>com.google.zxing</groupId>-->
+    <!--                <artifactId>javase</artifactId>-->
+    <!--                <version>3.4.0</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>javax.servlet</groupId>-->
+    <!--                <artifactId>javax.servlet-api</artifactId>-->
+    <!--                <version>4.0.1</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>com.alibaba</groupId>-->
+    <!--                <artifactId>fastjson</artifactId>-->
+    <!--                <version>1.2.71</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>dom4j</groupId>-->
+    <!--                <artifactId>dom4j</artifactId>-->
+    <!--                <version>1.6.1</version>-->
+    <!--            </dependency>-->
+    <!--            <dependency>-->
+    <!--                <groupId>org.mybatis.generator</groupId>-->
+    <!--                <artifactId>mybatis-generator-core</artifactId>-->
+    <!--                <version>1.4.0</version>-->
+    <!--            </dependency>-->
+    <!--        </dependencies>-->
+    <!--    </dependencyManagement>-->
 </project>
